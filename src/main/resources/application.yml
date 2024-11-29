@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: staff-only-project-backend
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 50MB
+
+
+server:
+  servlet:
+    context-path: /api/v1/
